@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.myapplication.MainActivity">
+
+    <TextView
+        style="@style/textTitle"
+        android:text="第四步" />
+
+    <TextView
+        style="@style/textContent"
+        android:text="一、填写操操作作票的要求
+\n1)、  停电的操作要求
+\n1，  先停底压，后停高压；先停负荷后停电源；先拉断器，后拉隔离开关（或刀开关）。
+\n2，  先拉负荷侧隔隔离开关，后拉电源侧隔离开关。
+\n3，  拉合隔离开关或刀开关之前应查与其串联的断路器确处断开位置。
+\n4，  先停出线开关后停主进开关。
+\n5，  每操作一项应查确以处在断开位置。
+\n6，  33、44、55、39、49、59不操作。
+\n7，  变压器解列之前查变压器的负荷分配情况，查运行的变压器有无过负荷。
+\n8，  非调度用户：若两路10KV供电时，两路10KV电源不允许合环，倒闸时必需先停后送。
+调度用户：两路10KV电源可以合环，合环之前先解除过流保护跳闸压板，合环后恢复保护压板，并查合环电流。
+\n9，  全站停电应用21、22。
+\n10，检修时：停电，验电，持标示牌。
+\n9，  全站停电应用21、22。
+\n10，检修时：停电，验电，持标示牌。
+\n9，  全站停电应用21、22。
+\n10，检修时：停电，验电，持标示牌。
+\n9，  全站停电应用21、22。
+\n10，检修时：停电，验电，持标示牌。
+\n11，备用分热备用和冷备用：冷备用籽路器、隔离开关（刀开关）都处入断开位置；热备用断路器处入断开位置，隔离开关（刀开关）处入合闸位置。" />
+
+
+    <!--
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="第四步"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    -->
+
+    <!--
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="一、填写操操作作票的要求
+    \n1)、  停电的操作要求
+    \n1，  先停底压，后停高压；先停负荷后停电源；先拉断器，后拉隔离开关（或刀开关）。
+    \n2，  先拉负荷侧隔隔离开关，后拉电源侧隔离开关。
+    \n3，  拉合隔离开关或刀开关之前应查与其串联的断路器确处断开位置。
+    \n4，  先停出线开关后停主进开关。
+    \n5，  每操作一项应查确以处在断开位置。
+    \n6，  33、44、55、39、49、59不操作。
+    \n7，  变压器解列之前查变压器的负荷分配情况，查运行的变压器有无过负荷。
+    \n8，  非调度用户：若两路10KV供电时，两路10KV电源不允许合环，倒闸时必需先停后送。
+    调度用户：两路10KV电源可以合环，合环之前先解除过流保护跳闸压板，合环后恢复保护压板，并查合环电流。
+    \n9，  全站停电应用21、22。
+    \n10，检修时：停电，验电，持标示牌。
+    \n9，  全站停电应用21、22。
+    \n10，检修时：停电，验电，持标示牌。
+    \n9，  全站停电应用21、22。
+    \n10，检修时：停电，验电，持标示牌。
+    \n9，  全站停电应用21、22。
+    \n10，检修时：停电，验电，持标示牌。
+    \n11，备用分热备用和冷备用：冷备用籽路器、隔离开关（刀开关）都处入断开位置；热备用断路器处入断开位置，隔离开关（刀开关）处入合闸位置。"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    -->
+
+</LinearLayout>
